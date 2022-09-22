@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="stage" pkg="stage_ros" type="stageros" args="$(find lab2)/world/playground.world" />
+</launch>
